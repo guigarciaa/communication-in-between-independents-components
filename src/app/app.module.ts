@@ -15,8 +15,7 @@ import { ListNamesComponent } from "./list-names/list-names.component";
     ListNamesComponent
   ],
   imports: [
-    BrowserModule,
-    AppService
+    BrowserModule
   ],
   providers: [AppService],
   bootstrap: [AppComponent]
