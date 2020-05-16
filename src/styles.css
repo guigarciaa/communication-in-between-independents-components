@@ -2,7 +2,8 @@
   --background: #B3D6DA;
   --title: #197182;
   --fonts: #007D91;
-  --borders: #007D91;;
+  --borders: #007D91;
+  --buttom: #5AADB9;
 }
 
 *,
@@ -65,10 +66,10 @@ justify-content: left;
 .box__button {
     display: block;
     border-radius: 10px;
-    background: #5AADB9;
+    background: var(--buttom);
     color: #fff;
     padding: 5px 20px;
-    border: 1px solid #5AADB9;
+    border: 1px solid var(--buttom);
     margin: 5px;
     transition: .3s;
 }
