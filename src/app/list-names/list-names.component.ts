@@ -1,7 +1,6 @@
 import { Component, OnInit, OnDestroy } from "@angular/core";
-import { AppServiceService } from "../app-service.services";
-
-@Component({
+import { AppService } from "../app-service.services";
+AppService
   selector: "app-list-names",
   template: `
     <div class="box box--alingn-left">
@@ -16,9 +15,9 @@ import { AppServiceService } from "../app-service.services";
 
 export class ListNamesComponent implements OnInit, OnDestroy {
   lastName: string;
-  names: Array<string>;
+ AppService names: Array<string>;
 
-  constructor(private _service: AppServiceService) {
+  constructor(private _service: AppService) {
     this.getNames();
   }
 

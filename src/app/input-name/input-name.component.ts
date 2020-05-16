@@ -1,5 +1,5 @@
 import { Component, ElementRef, ViewChild } from "@angular/core";
-import { AppServiceService } from "../app-service.services";
+import { AppService } from "../app-service.services";
 
 @Component({
   selector: "app-input-name",
@@ -21,7 +21,7 @@ export class InputNameComponent {
   private name: string;
   @ViewChild("inputName") inputName: ElementRef;
 
-  constructor(private _service: AppServiceService) {}
+  constructor(private _service: AppService) {}
 
   onKey(event: any) {
     this.name = event.target.value;

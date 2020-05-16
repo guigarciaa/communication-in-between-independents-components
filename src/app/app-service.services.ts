@@ -1,7 +1,7 @@
 import { Injectable, EventEmitter } from '@angular/core';
 
 @Injectable()
-export class AppServiceService {
+export class AppService {
   
   private names: Array<string> = [];
   EmmitNameChange = new EventEmitter<string>();
