@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppService } from "./app-service.services";
+import { AppService } from "./app-service";
 
 import { AppComponent } from './app.component';
 import { InputNameComponent } from "./input-name/input-name.component";

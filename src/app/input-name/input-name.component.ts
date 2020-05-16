@@ -1,5 +1,5 @@
 import { Component, ElementRef, ViewChild } from "@angular/core";
-import { AppService } from "../app-service.services";
+import { AppService } from "../app-service";
 
 @Component({
   selector: "app-input-name",
